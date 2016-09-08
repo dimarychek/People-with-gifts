@@ -1,0 +1,189 @@
+.gift_block, .gift_count {
+    background-image: url(http://practicalbinary.ru/wp-content/plugins/people_with_gifts/img/w512h5121377939682185078emailmailstreamline.png);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    font-size: 13px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    position: relative;
+}
+.gift_block1, .gift_block2 {
+    background-image: url(http://practicalbinary.ru/wp-content/plugins/people_with_gifts/img/w512h5121377939682185078emailmailstreamlinered.png);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    font-size: 13px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    position: relative;
+}
+.gift_count a, .gift_block2 a, .gift_block a, .gift_block1 a {
+    color: black;
+    display: block;
+    height: 100%;
+}
+.count_mark {
+    position: absolute;
+    top: 0;
+    background-color: #1d78cb;
+    left: 0;
+    padding: 4px;
+    color: white;
+    border-radius: 100px;
+    margin: -1px 30px;
+    line-height: 120%;
+}
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+}
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 30px 20px;
+    border-radius: 3px;
+    background-color: white;
+}
+.closer {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.closer:hover {
+    background: #1d78cb;
+}
+.line_height {
+    line-height: 70%;
+}
+.count_req span {
+    background-color: rgb(213, 78, 33);
+    border-radius: 50px !important;
+    padding: 0px 5px !important;
+    color: white;
+}
+.giftw {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 4px 20px;
+}
+#openModal p, #openModal1 p, #openModal3 p {
+    color: black;
+}
+#openModal h2, #openModal1 h2, #openModal3 h2 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.emailb {
+    background-color: red;
+    border: 1px solid white;
+    padding: 10px;
+    font-weight: bold;
+}
+.mail {
+    padding-top: 20px;
+    text-align: center;
+}
+#em {
+    padding: 10px;
+}
+.error, .not_error {
+    color: red;
+}
+/* Pulse */
+@-webkit-keyframes pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+@keyframes pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+.pulse {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.table_p {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.table_p td {
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+}
+.table_p th {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+.pag {
+    padding: 3px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    margin: 0.6px;
+}
+.curpag {
+    background-color: #E4E4E4;
+    padding: 4px;
+    margin: 0px 3px 0px -1px;
+    border: 1px solid #CCCCCC;
+}
+.allpag {
+    padding-top: 20px;
+}
