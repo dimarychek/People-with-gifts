@@ -25,9 +25,6 @@ Author URI: http://#
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-//test
-//test_new
-
 header("Content-Type: text/html; charset=utf-8");
 require_once('model/database.php');
 require_once('view/view.php');
